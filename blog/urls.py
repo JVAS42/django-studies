@@ -1,9 +1,8 @@
+from blog import views
 from django.urls import path
 
-from . import views
-
-# http://seudominio.com.br/blog/
+# blog/
 urlpatterns = [
     path('', views.blog),
-    path('exemplos/', views.blog)
+    path('exemplo/', views.exemplo),
 ]
